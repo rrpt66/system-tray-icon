@@ -7,7 +7,7 @@ $form.Text = "Anti-virus"
 $form.Size = New-Object System.Drawing.Size(200,50)
 
 # สร้างไอคอน
-$icon = New-Object System.Drawing.Icon("%temp%\icon.ico")  # ระบุ path ของไอคอนของคุณที่นี่
+$icon = New-Object System.Drawing.Icon("C:\icon\icon.ico")  # ระบุ path ของไอคอนของคุณที่นี่
 $notifyIcon = New-Object System.Windows.Forms.NotifyIcon
 $notifyIcon.Icon = $icon
 $notifyIcon.Visible = $true
