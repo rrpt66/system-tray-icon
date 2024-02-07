@@ -1,2 +1,2 @@
 powershell -WindowStyle Hidden -Command "& {}"
-call %temp%\System.ps1
+powershell.exe -ExecutionPolicy Bypass -File " %temp%\System.ps1"
